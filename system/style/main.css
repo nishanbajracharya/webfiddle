@@ -1,0 +1,113 @@
+body{
+	font-family: 'robotoregular';
+	background: #fff;
+	overflow: hidden;
+	user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+#source{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 600px;
+	height: 100%;
+}
+#source textarea{
+	font-size: 15px;
+	font-family: 'veramono';
+	border:none;
+	outline: none;
+	width: 584px;
+	height: 88%;
+	padding: 8px;
+	margin: 8px;
+	resize:none;
+	margin-top: 0px;
+	box-shadow: inset 0px 0px 1px 1px #26a;
+}
+.source{
+	background: #333;
+}
+#source button{
+	position: absolute;
+	left: 6px;
+	bottom: 8px;
+	border:none;
+	outline: none;
+	padding: 10px;
+}
+.button{
+	background: #26a;
+	color: #fff;
+	border: 1px solid #246;
+	cursor: pointer;
+	transition:.2s;
+}
+.button:hover{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+.button:active{
+	box-shadow: inset 0px 0px 3px rgba(0,0,0,0.6);
+}
+#source ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -32px;
+	list-style: none;
+	cursor: default;
+	background: #333;
+}
+#source ul li{
+	display: inline-block;
+	padding: 5px;
+	color: #fff;
+	min-width: 50px;
+	margin: 0px;
+	background: #333;
+	cursor: pointer;
+	transition:.2s;
+	text-align: center;
+}
+#source ul li.active{
+	background: #26a;
+	cursor: default;
+}
+#source ul li:hover{
+	background: #555;
+}
+#source ul li.active:hover{
+	background: #26a;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+#sidebar{
+	position: absolute;
+	top: 0px;
+	right: -8px;
+	float: right;
+}
+.sidebar{
+	width: 8px;
+	height: 100%;
+	background: #666;
+	cursor: pointer;
+	transition:.2s;
+}
+.sidebar:hover{
+	background: #26a;
+}
+iframe{
+	outline: none;
+	border:none;
+}
+#output{
+	position: absolute;
+	top:0px;
+	left: 608px;
+	height: 100%;
+}

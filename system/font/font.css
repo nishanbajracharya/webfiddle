@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.eot');
+    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('roboto-regular-webfont.svg#robotoregular') format('svg'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'veramono';
+    src: url('veramono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
